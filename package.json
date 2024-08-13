@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "nodeJS boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ts-config.json",
+    "start": "npm run build && node build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamaldobhalGit/boilerplate-nodeJS.git"
+  },
+  "author": "kamal dobhal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamaldobhalGit/boilerplate-nodeJS/issues"
+  },
+  "homepage": "https://github.com/kamaldobhalGit/boilerplate-nodeJS#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
